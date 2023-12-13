@@ -64,6 +64,12 @@ sd(s)
 # Challenge 4
 
 ```{r}
+sayhi <- function(x) {
+  hi <- paste("greetings, ", x, "!", sep = "")
+  # the paste command allows string concatenation
+  return(hi)
+}
+
 name1 <- "septimus"
 name2 <- "thomasina"
 sayhi(name1)
