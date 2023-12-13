@@ -1,0 +1,71 @@
+---
+title: "Module1"
+author: "Emiley Garcia-Zych"
+date: "`September 8, 2023`"
+output: html_document
+---
+
+# First Steps with *R* and *RStudio*
+
+## Challenge 1/Challenge 2
+
+```{r}
+8 + 5 
+10-6/2
+(10-6)/2
+10*5
+15/5
+10^5
+3*pi 
+```
+
+```{r}
+x <- 6
+x
+y <- 5
+y 
+z <- x*y
+z
+x2 <- x^2
+x2
+```
+
+```{r}
+x <- 10
+log(x)
+factorial(x)
+y <- 81
+sqrt(y)
+z <- -8.349218
+round(z, digits = 3)
+abs(z*y)
+ls()
+```
+
+# Challenge 3
+
+```{r}
+x <- 15:28
+y <- 1:4
+x + y
+
+s <- x + y
+s
+class(s)
+length(s)
+
+z <- c(10, 100)
+x * z
+
+mean(s)
+sd(s)
+```
+
+# Challenge 4
+
+```{r}
+name1 <- "septimus"
+name2 <- "thomasina"
+sayhi(name1)
+sayhi(name2)
+```
